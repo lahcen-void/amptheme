@@ -6,7 +6,7 @@ base theme: bartik
 
 description: The Bartik AMP theme converts the Bartik theme to use AMP HTML.
 package: Custom
-core_version_requirement: ^8.8 || ^9 || ^10
+core_version_requirement: ^8.8 || ^9 || ^10 || ^11
 
 # Every AMP theme should include the amp/runtime library.
 libraries:
@@ -105,8 +105,6 @@ libraries-override:
   core/jquery.ui.widget: false
   core/matchmedia: false
   core/matchmedia.addListener: false
-  core/modernizr: false
-  core/picturefill: false
   core/underscore: false
   big_pipe/big_pipe: false
   block/drupal.block: false
@@ -128,14 +126,12 @@ libraries-override:
   content_translation/drupal.content_translation.admin: false
   contextual/drupal.contextual-links: false
   contextual/drupal.contextual-toolbar: false
-  editor/drupal.editor.admin: false
   editor/drupal.editor: false
   editor/drupal.editor.dialog: false
   editor/quickedit.inPlaceEditor.formattedText: false
   field_ui/drupal.field_ui: false
   file/drupal.file: false
   filter/drupal.filter.admin: false
-  filter/drupal.filter.filter_html.admin: false
   filter/drupal.filter: false
   history/api: false
   history/mark-as-read: false

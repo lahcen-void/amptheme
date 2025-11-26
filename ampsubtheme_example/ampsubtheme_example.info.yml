@@ -5,7 +5,7 @@ base theme: amptheme
 
 description: The ExAMPle subtheme is a subtheme of the AMP theme.
 package: Custom
-core_version_requirement: ^8.8 || ^9 || ^10
+core_version_requirement: ^8.8 || ^9 || ^10 || ^11
 
 libraries:
   - ampsubtheme_example/base
